@@ -1,86 +1,46 @@
-html, body {
-	background-color: black;
-	color: white;
-	font-family: helvetica, arial, sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
-	margin: 0;
-	padding: 0;
+/* Copyright 2018 Google LLC.
+SPDX-License-Identifier: Apache-2.0 */
+
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
 }
 
-.container {
-	margin: 0 auto;
-	max-width: 768px;
-	padding: 20px 5%;
+h1 {
+  text-align: center;
 }
 
-section {
-	background-color: #171717;
+.toolbar {
+  width: 100%;
+  display: flex;
+  margin-top: 16px;
+  justify-content: center;
 }
 
-h1, h2 {
-	line-height: 1;
-	text-transform: uppercase;
+.instructions {
+  text-align: center;
+  margin-bottom: 16px;
 }
 
-h2 {
-	margin-top: 40px;
+output {
+  display: block;
+  color: gray;
+  margin: 32px 16px;
+  text-align: center;
+  border: 1px silver dashed;
+  padding: 16px;
+  border-radius: 16px;  
 }
 
-h2:first-of-type {
-	margin-top: 20px;
+button {
+  display: block;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 0 8px;
+  text-transform: uppercase;
 }
 
-.logo {
-	display: block;
-}
-
-img {
-	height: auto;
-	max-width: 100%;
-}
-
-.logo img {
-	width: 500px;
-}
-
-@media all and (max-width: 768px) {
-	.logo img {
-		width: 450px;
-	}
-}
-
-@media all and (max-width: 479px) {
-	.logo img {
-		width: 350px;
-	}
-}
-
-.icon.heart {
-	color: lightcoral;
-}
-
-a {
-	color: aquamarine;
-	font-weight: bold;
-}
-
-a:hover, a:active {
-	color: mediumaquamarine;
-}
-
-a code {
-	color: black;
-}
-
-code {
-	background-color: aquamarine;
-	color: black;
-	font-family: monospace;
-	padding: 1px;
-	user-select: all;
-}
-
-code.image {
-	background-color: lightyellow;
-}
